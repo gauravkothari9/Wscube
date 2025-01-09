@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+background-color: black;
+}
+.main{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+.header{
+    background:url(./images/headerbg.jpg);
+    width: 1000px;
+    height: 176px;
+    padding-top: 10px;
+}
+.left{
+    background: url(./images/logo.png);
+    width: 210px;
+    height: 160px;
+    float: left;
+    margin-left: 35px;
+    margin-right: 40px;
+}
+.center{
+    color: wheat;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+    color: blue;
+    font-weight: bold;
+    width: 341px;
+    margin-top: 10px;
+    font-size: 17px;
+    background: url;
+    margin-right: 45px;
+    text-transform: uppercase;
+}
+
+.right {
+    background: url(./images/topcontactbg.png);
+    float: left;
+    width: 280px;
+    height: 126px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.naam{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.mail{
+    font-size: 25px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.phone{
+    font-size: 25px;
+    color: white;
+}
+
+ .navbar{
+    background: url(./images/menubg.jpg);
+    height: 50px;
+    padding-left: 80px;
+ }
+ .menuitem a {
+    float: left;
+    background: url(./images/menubackground.png);
+    width: 127px;
+    height: 44px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    line-height: 44px;
+ }
+ 
+ .sidebar{
+    padding-top: 10px;
+    float: left;
+ }
+
+ .sidenav{
+    background: url(./images/leftmenubg.png);
+    width: 213px;
+    height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.rightbar{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.whyiip{
+    height: 180px;
+    width: 213px;
+    background: white url(./images/whybg.jpg);
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.whyiip h2 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.whyiip li {
+    color: white;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.courses{
+    width: 362px;
+    height: 184px;
+    background: #fdc059;
+    float: left;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.courses h3 {
+    color: white;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.courses p {
+    margin: 7px ;
+}
+
+.courses img{
+    margin: 5px;
+    float: left;
+}
+
+.services > img {
+margin-top: 5px;
+height: 184px;
+margin-left: 5px;
+width: 370px;
+}
+
+
+.footer{
+    height: 50px;
+    width: 990px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    background: url(./images/footermenubg.jpg);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-style: none;
+}
+
+.footer a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.item{
+    text-align: center;
+}
+
+.end{
+    height: 2px;
+}
+
+.about{
+    background: white;
+    margin: 10px 0px 0px 10px  ;
+    float: left;
+    width: 760px;
+    /* height: 500px; */
+}
+
+.about h1, h3{
+    margin: 15px;
+}
+
+.about p {
+    margin: 15px;
+    font-size: 17.5px;
+    font-weight: lighter;
+}
+
+.about ol{
+    margin-left: 30px ;
+    margin-bottom: 10px;
+}
+
+.course{
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    float: left;
+    width: 760px;
+}
+
+.course h1{
+    margin: 15px;
+}
+
+.course ol{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.enquiry{
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    float: left;
+    width: 760px;
+}
+
+.enquiry h1 {
+    margin: 15px;
+}
+
+.gender{
+    width: 20%;
+    height: 25px;
+    margin: 15px;
+    float: left;
+}
+
+.radio{
+    width: 70%;
+    height: 25px;
+    margin: 15px;
+    float: left;   
+}
+
+.name{
+    width: 20%;
+    height: 25px;
+    margin: 15px;
+    float: left;
+    font-size: 16px;   
+}
+
+.input{
+    width: 70%;
+    height: 25px;
+    margin: 15px;
+    float: left;
+    font-size: 16px;
+      
+}
+
+.contactno{
+    width: 20%;
+    height: 25px;
+    margin: 15px;
+    float: left;
+    font-size: 16px;   
+}
+
+.country{
+    width: 20%;
+    height: 25px;
+    margin: 15px;
+    float: left;
+    font-size: 16px;   
+}
+
+.state{
+    width: 20%;
+    height: 25px;
+    margin: 15px;
+    float: left;
+    font-size: 16px;   
+}
+
+.city{
+    width: 20%;
+    height: 25px;
+    margin: 15px;
+    float: left;
+    font-size: 16px;   
+}
+
+.email{
+    width: 20%;
+    height: 25px;
+    margin: 15px;
+    float: left;
+    font-size: 16px;   
+}
+
+button {
+    margin: 15px;
+    width: 65px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #09F;
+    color: white;
+    font-weight: bold;
+}
+
+.enquire{
+    width: 20%;
+    height: 25px;
+    margin: 15px;
+    float: left;
+    margin-top: 8px;  
+}
+
+.inputext textarea{
+    width: 30%;
+    height: 70px;
+    margin: 10px;
+    resize: none;
+}
+
+.address{
+    width: 20%;
+    height: 25px;
+    margin: 15px;
+    float: left;
+    margin-top: 8px;  
+}
+
+#text {
+    width: 42%;
+}
+
+.contact{
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    float: left;
+    width: 760px;
+}
+
+.contact h1{
+    margin: 15px;
+}
+
+.pta{
+    margin: 15px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.800); 
+    padding-bottom: 15px;   
+}
+
+.details{
+    margin: 15px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.gallery{
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    float: left;
+    width: 760px;
+}
+
+.gallery h1{
+    margin: 15px;
+    margin-left: 25px;
+}
+
+.photos{
+    height: 750px;
+}
+
+.frameone {
+    height: 200px;
+    margin: 35px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.frametwo{
+    height: 200px;
+    margin: 35px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.framethree{
+    height: 200px;
+    margin: 5px;
+    margin: 35px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.frameone img{
+    width: 200px;
+}
+
+.frame{
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
