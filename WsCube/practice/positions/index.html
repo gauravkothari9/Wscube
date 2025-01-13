@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            border: 8px solid red;
+            height: 1000px;
+        }
+
+        .box{
+            background-color: blue;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: 2;
+        }
+
+        .extra{
+            background-color: yellow;
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Hello</div>
+        <div class="extra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo totam dolor facilis quod tempora veritatis, sed, deserunt quam qui pariatur eveniet assumenda tempore cum laborum, iste neque ratione ea expedita.</div>
+    </div>
+</body>
+</html>

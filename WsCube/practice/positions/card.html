@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .card{
+            width: 300px;
+            height: 400px;
+            border: 4px solid black;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .card p{
+            position: absolute;
+            height: 100%;
+            top: 100%;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.381);
+            font-size: 18px;
+            color: white;
+            transition: 0.6s;
+        }
+
+        .card:hover p {
+            top: 0;
+            
+        }
+        
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./image/Fallow-deer.webp" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eum. Earum maxime repellendus beatae fuga blanditiis ipsum accusamus magni accusantium, voluptas, numquam consequuntur assumenda placeat saepe? Quo exercitationem ad alias!</p>
+        </div>
+        <div class="card">
+            <img src="./image/Fallow-deer.webp" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eum. Earum maxime repellendus beatae fuga blanditiis ipsum accusamus magni accusantium, voluptas, numquam consequuntur assumenda placeat saepe? Quo exercitationem ad alias!</p>
+        </div>
+        <div class="card">
+            <img src="./image/Fallow-deer.webp" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eum. Earum maxime repellendus beatae fuga blanditiis ipsum accusamus magni accusantium, voluptas, numquam consequuntur assumenda placeat saepe? Quo exercitationem ad alias!</p>
+        </div>
+        <div class="card">
+            <img src="./image/Fallow-deer.webp" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eum. Earum maxime repellendus beatae fuga blanditiis ipsum accusamus magni accusantium, voluptas, numquam consequuntur assumenda placeat saepe? Quo exercitationem ad alias!</p>
+        </div>
+    </div>
+</body>
+</html>

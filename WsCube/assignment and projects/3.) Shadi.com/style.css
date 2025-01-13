@@ -1,4 +1,415 @@
-.header{
-    border: 2px solid black;
-    height: 50px;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    background: url(./image/front-banner-jan2025-v2.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+nav .container{
+    text-align: right;
+    padding-top: 20px;
+}
+
+.login {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 15px;
+    background-color: #6D5E63;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.login:hover{
+    background-color: #EEEEEE;
+}
+
+.join{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #368D87;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.join:hover{
+    background-color: #31BFAC;
+}
+
+.about-us div:first-child button{
+    padding: 10px 15px;
+    color: white;
+    background-color:  #FF716F;
+    border-style: none;
+    border-radius: 5px
+}
+
+.about-us > div{
+    padding: 10px;
+    text-align: center;
+}
+
+.about-banner{
+    display: flex;
+}
+
+.card{
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.card p {
+    text-align: left;
+}
+
+.profile >div {
+    text-align: center;
+}
+
+.profile h1 {
+    color: #D20200;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.profile >div:nth-child(2){
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.religion{
+    height: 100%;
+    width: 32%;
+    border-radius: 15px;
+    background-color: #F8F8F8;
+    border-style: outset;
+}
+
+.religion h2{
+    padding: 12px;
+}
+
+.religion >p a{
+    color: blue;
+    font-size: 18px;
+}
+
+.religion p {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.religion button{
+    background-color: #76C7C0;
+    font-weight: 400;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.caste{
+    height: 100%;
+    width: 32%;
+    border-radius: 15px;
+    background-color: #F8F8F8;
+    border-style: outset;
+}
+
+.caste h2{
+    padding: 12px;
+}
+
+.caste >p a{
+    color: blue;
+    font-size: 18px;
+}
+
+.caste p {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.caste button{
+    background-color: #76C7C0;
+    font-weight: 400;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.state{
+    height: 200px;
+    width: 32%;
+    border-radius: 15px;
+    background-color: #F8F8F8;
+    border-style: outset;
+}
+
+.state h2{
+    padding: 12px;
+}
+
+.state >p a{
+    color: blue;
+    font-size: 18px;
+}
+
+.state p {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.state button{
+    background-color: #76C7C0;
+    font-weight: 400;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.advise{
+    height: 500px;
+    display: flex;
+    margin: 15px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.advise-card{
+    width: 31%;
+}
+
+.advise-card h3{
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+}
+
+.advise-card img{
+    width: 100%;
+    height: 210px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.advise-card div:last-child{
+    text-align: right;
+}
+
+.advise-card p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.advise-card a{
+    font-size: 17px;
+    color: #337AB7;
+}
+
+.professional{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.professional h2{
+    text-align: center;
+    color: #D20200;
+}
+
+.professional > div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+
+.first img{
+    width: 302px;
+    height: 162px;
+    display: block;
+    margin: auto;
+}
+
+.first{
+    width: 48%;
+    height: 100%;
+}
+
+.first p{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.last{
+    width: 49%;
+}
+
+.last img{
+    width: 302px;
+    height: 162px;
+    display: block;
+    margin: auto;
+}
+
+.last p {
+    text-align: center;
+}
+
+.heading{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    color: #D20200;
+}
+
+.first-date{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.left{
+    width: 49%;
+    padding: 20px 0px;
+}
+
+.left p{
+    padding: 0px 40px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.left img{
+    width: 500;
+    height: 300px;
+    display: block;
+    margin: auto;
+    
+}
+
+.right{
+    width: 49%; 
+    padding: 20px 0px;  
+}
+
+
+.right img {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+}
+
+.right p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 40px
+}
+
+
+footer{
+    height: 630px;
+    background-color: #F3F3F3;
+}
+
+.online{
+    width: 1170px;
+    margin: auto;
+}
+
+.online h2{
+    text-align: center;
+    padding-top: 50px;
+    color: #d20200;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-shadi{
+    width: 1170px;
+    height: 120px;
+}
+
+.about-shadi img {
+    width: 41px;
+    height: 13px;
+    float: left;
+    margin-right: 7px;
+}
+
+.about-shadi p {
+    font-weight: 600;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.footernav{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footernav > div:first-child {
+    width: 35% !important;
+}
+
+.footernav >div h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #666;
+    margin: 10px 0px;
+}
+
+.footernav >div div {
+   background-color:  #AA0000;
+    width: 100px;
+    height: 3px;
+    margin: 15px 0px ;
+}
+
+.footernav >div p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footernav >div{
+    width: 15%;
+}
+
+.footernav >div li {
+    margin: 10px;
+}
+
+.footernav >div a {
+    color: 
+    rgb(102, 102, 102);
+}
+
+.hr{
+    border: 1px solid #E6E6E6;
 }
