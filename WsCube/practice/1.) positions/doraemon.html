@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+
+        .main {
+            width: 500px;
+            margin: auto;
+            box-shadow: 0 0 10px 6px grey;
+            height: 500px;
+            padding: 20px;
+        }
+        
+        .head{
+            width: 200px;
+            height: 195px;
+            background-color: #04A6D7;
+            border-radius: 50%;
+            margin: auto;
+            border: 1px solid black;
+            position: relative;
+        }
+
+        .inner-head{
+            width: 150px;
+            height: 145px;
+            background-color: white;
+            border-radius: 50%;
+            margin: auto;
+            border: 1px solid black;
+            position: absolute;
+            bottom: -1px;
+            left: 25px;
+        }
+
+        .eyes{
+            border: 1px solid black;
+            position: absolute;
+            height: 60px;
+            width: 35px;
+            border-radius: 50%;
+            background-color: white;
+            left: 35px;
+            top: -28px;
+        }
+
+        .eye-right{
+            left: 70px;
+        }
+
+        .black-dot{
+            border: 1px solid black;
+            position: absolute;
+            height: 20px;
+            width: 12px;
+            border-radius: 50%;
+            background-color: black;
+            left: 15px;
+            top: 22px;
+        }
+
+        .white-dot{
+            /* border: 1px solid black; */
+            position: absolute;
+            height: 10px;
+            width: 4px;
+            border-radius: 50%;
+            background-color: white;
+            left: 4px;
+            top: 5px;
+        }
+
+        .nose{
+            width: 28px;
+            height: 28px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            border: 1px solid;
+            top: 24px;
+            left: 57px;
+        }
+
+        .nose-dot{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            top: 10px;
+            right: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <div class="inner-head">
+                <div class="eyes">
+                    <div class="black-dot">
+                        <div class="white-dot"></div>
+                    </div>
+                </div>
+                <div class="eyes eye-right">
+                    <div class="black-dot">
+                        <div class="white-dot"></div>
+                    </div>
+                
+                </div>
+                <div class="nose">
+                    <div class="nose-dot"></div>
+                </div>
+                <div class="mouth"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

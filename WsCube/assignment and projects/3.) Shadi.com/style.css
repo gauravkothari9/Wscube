@@ -4,6 +4,7 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
+    /* font-family: ; */
 }
 
 header{
@@ -290,6 +291,8 @@ nav .container{
 .left{
     width: 49%;
     padding: 20px 0px;
+    background-color: #F8F8F8;
+    border-radius: 20px;
 }
 
 .left p{
@@ -309,7 +312,9 @@ nav .container{
 
 .right{
     width: 49%; 
-    padding: 20px 0px;  
+    padding: 20px 0px; 
+    background-color: #F8F8F8;
+    border-radius: 20px; 
 }
 
 
@@ -412,4 +417,54 @@ footer{
 
 .hr{
     border: 1px solid #E6E6E6;
+}
+
+.footernav i{
+    font-size: 8px;
+    margin-right: 15px;
+}
+
+.social{
+    height: 150px;
+    background-color: #AA0000;
+}
+
+.social .content{
+    width: 1170px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 30%;
+}
+
+.icon h2{
+    color: white;
+    margin-top: 30px;  
+}
+
+
+.icon >div:nth-child(2) i {
+    font-size: 30px;
+    padding-right: 15px;
+    color: white;
+    margin-top: 15px;
+
+}
+
+.copyright{
+    width: 50%;
+    text-align: right;
+    padding: 5px;
+    padding-top: 30px;
+}
+
+.copyright >div:first-child{
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
 }

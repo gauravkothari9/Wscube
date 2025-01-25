@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        header{
+            background-color: skyblue;
+            padding: 20px;
+        }
+
+        .menu {
+            display: flex;
+        }
+
+        .menu >li >a{
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0 10px;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+
+        .menu >li{
+            position: relative;
+        }
+
+        .menu >li:hover .submenu{
+            opacity: 1;
+            visibility: visible;
+            top: 100%;
+        }
+        
+        .submenu {
+            /* background-color: white; */
+            /* border: 2px solid black; */
+            position: absolute;
+            width: 150px;
+            padding-top: 19px;
+            /* opacity: 0; */
+            /* visibility: hidden; */
+            transition: 0.3s;
+            left: 0;
+            top: 100%;
+        }
+
+        .submenu > li > a{
+            text-transform: capitalize;
+            font-weight: 500;
+            color: black;
+            font-size: 17px;
+        }
+
+        .submenu > li{
+            padding: 10px ;
+            background-color: white;
+        }
+
+        section{
+            height: 400px;
+            background-color: red;
+        }
+
+        .innermenu{
+            position: absolute;
+            left: 100%;
+            width: 160px;
+            background-color: white;
+            top: 50px;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.2s;
+        }
+
+        .innermenu > li{
+            padding: 10px;
+        }
+
+        .innermenu a{
+            color: black;
+            font-size: 17px;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+
+        .submenu > li:hover .innermenu{
+            opacity: 1;
+            visibility: visible;
+            top: 19px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li>
+                <a href="">nav 1</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="">submenu 1</a>
+                        <ul class="innermenu">
+                            <li><a href="">inner sub menu 1</a></li>
+                            <li><a href="">inner sub menu 2</a></li>
+                            <li><a href="">inner sub menu 3</a></li>
+                            <li><a href="">inner sub menu 4</a></li>
+                            <li><a href="">inner sub menu 5</a></li>
+                            <li><a href="">inner sub menu 6</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">submenu 2</a></li>
+                    <li><a href="">submenu 3</a></li>
+                    <li>
+                        <a href="">submenu 4</a>
+                        <ul class="innermenu">
+                            <li><a href="">inner sub 4 menu 2</a></li>
+                            <li><a href="">inner sub 4 menu 1</a></li>
+                            <li><a href="">inner sub 4 menu 3</a></li>
+                            <li><a href="">inner sub 4 menu 4</a></li>
+                            <li><a href="">inner sub 4 menu 5</a></li>
+                            <li><a href="">inner sub 4 menu 6</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">submenu 5</a></li>
+                    <li><a href="">submenu 6</a></li>
+                    <li><a href="">submenu 7</a></li>
+                    <li><a href="">submenu 8</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">nav 2</a>
+                <!-- <ul class="submenu">
+                    <li><a href="">nav 2 inner menu</a></li>
+                    <li><a href="">nav 2 inner menu</a></li>
+                    <li><a href="">nav 2 inner menu</a></li>
+                    <li><a href="">nav 2 inner menu</a></li>
+                    <li><a href="">nav 2 inner menu</a></li>
+                    <li><a href="">nav 2 inner menu</a></li>
+                    <li><a href="">nav 2 inner menu</a></li>
+                    <li><a href="">nav 2 inner menu</a></li>
+                    <li><a href="">nav 2 inner menu</a></li>
+                    <li><a href="">nav 2 inner menu</a></li>
+                </ul> -->
+            </li>
+            <li>
+                <a href="">nav 3</a>
+                <!-- <ul class="submenu">
+                    <li><a href="">nav 3 menu</a></li>
+                    <li><a href="">nav 3 menu</a></li>
+                    <li><a href="">nav 3 menu</a></li>
+                    <li><a href="">nav 3 menu</a></li>
+                    <li><a href="">nav 3 menu</a></li>
+                    <li><a href="">nav 3 menu</a></li>
+                    <li><a href="">nav 3 menu</a></li>
+                    <li><a href="">nav 3 menu</a></li>
+                    <li><a href="">nav 3 menu</a></li>
+                    <li><a href="">nav 3 menu</a></li>
+                </ul> -->
+            </li>
+            <li>
+                <a href="">nav 4</a>
+                <!-- <ul class="submenu">
+                    <li><a href="">nav 4 menu</a></li>
+                    <li><a href="">nav 4 menu</a></li>
+                    <li><a href="">nav 4 menu</a></li>
+                    <li><a href="">nav 4 menu</a></li>
+                    <li><a href="">nav 4 menu</a></li>
+                    <li><a href="">nav 4 menu</a></li>
+                    <li><a href="">nav 4 menu</a></li>
+                    <li><a href="">nav 4 menu</a></li>
+                    <li><a href="">nav 4 menu</a></li>
+                </ul> -->
+            </li>
+            <li>
+                <a href="">nav 5</a>
+                <!-- <ul class="submenu">
+                    <li><a href="">nav 5 menu</a></li>
+                    <li><a href="">nav 5 menu</a></li>
+                    <li><a href="">nav 5 menu</a></li>
+                    <li><a href="">nav 5 menu</a></li>
+                    <li><a href="">nav 5 menu</a></li>
+                </ul> -->
+            </li>
+        </ul>
+    </header>
+    <section></section>
+</body>
+</html>
