@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding-top: 30px;
+            background-color: black;
+            color: white;
+            line-height: 60px;
+            font-size: 90px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+
+        const rows= 10
+
+      for(let i = 1; i<=rows; i++){
+
+        for(let s=i; s <= rows ; s++){
+            document.write('&nbsp')
+        }
+
+        for(let j=1; j<=i; j++){
+            document.write('*')
+        }
+        document.write('<br>')
+        
+      }
+    </script>
+</body>
+</html>
