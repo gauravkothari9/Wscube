@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            background-color: black;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <script>
-        while(4 > 3){
-            console.log('hello')
+        for(let i = 0; i<=5; i++){
+            for(let k = 0; k <= 5; j++){
+                document.write('&nbsp;');
+            }
+            for(let j= 0; j<=i; j++){
+                document.write('*')
+            }
+            document.write('<br>')
         }
+
+        console.log('object');
     </script>
 </body>
 </html>
